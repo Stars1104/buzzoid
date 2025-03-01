@@ -6,6 +6,9 @@ import Delivery from "../../components/instagramlikes/Delivery";
 import WhyChooseBuzzoid from "@/app/components/instagramlikes/WhyChooseBuzzoid";
 import HowItWorks from "@/app/components/instagramlikes/HowItWorks";
 import BenefitOfBuying from "@/app/components/instagramlikes/BenefitOfBuying";
+import FAQ from "@/app/components/homepage/Faq";
+import BoostYourIG from "@/app/components/instagramlikes/BoostYourIG";
+import WhatCustomerSays from "@/app/components/instagramlikes/WhatCustomerSays";
 
 const InstagramComment = () => {
   return (
@@ -140,8 +143,8 @@ const InstagramComment = () => {
 
         <Delivery />
 
-        <div className="w-1/2 flex items-center justify-center gap-8 mt-24 h-96">
-          <div className="border-2  w-1/3 flex-col rounded-lg  text-gray-600 h-full">
+        <div className="lg:w-1/2  flex items-center justify-center flex-col lg:flex-row gap-8 mt-24 lg:h-96">
+          <div className="border-2 lg:w-1/3 w-1/2 flex-col rounded-lg  text-gray-600 h-full">
             <div className="p-4  rounded-t-lg  h-20">
               <p className="font-bold text-gray-600">
                 High Quality <br /> Followers
@@ -180,7 +183,7 @@ const InstagramComment = () => {
             </div>
           </div>
 
-          <div className="border-2  w-1/3 flex-col rounded-lg  text-gray-600 h-full">
+          <div className="border-2  lg:w-1/3 w-1/2 flex-col rounded-lg  text-gray-600 h-full">
             <div className="p-4 bg-black rounded-t-lg  h-20">
               <p className="font-bold text-white">
                 Active <br /> Followers
@@ -218,7 +221,7 @@ const InstagramComment = () => {
               </div>
             </div>
           </div>
-          <div className="border-2  w-1/3 flex-col rounded-lg  text-gray-600 h-full">
+          <div className="border-2 lg:w-1/3 w-1/2 flex-col rounded-lg  text-gray-600 h-full">
             <div className="p-4 bg-[#9936fe] rounded-t-lg h-20">
               <p className="font-bold text-white ">Exclusive/ VIP</p>
             </div>
@@ -256,15 +259,25 @@ const InstagramComment = () => {
       </section>
 
       <section>
-        <WhyChooseBuzzoid/>
+        <WhyChooseBuzzoid />
       </section>
 
       <section>
-        <HowItWorks/>
+        <HowItWorks />
       </section>
 
       <section>
-        <BenefitOfBuying/>
+        <BenefitOfBuying />
+      </section>
+
+      <FAQ />
+
+      <section >
+        <WhatCustomerSays />
+      </section>
+
+      <section>
+        <BoostYourIG />
       </section>
       <Footer />
     </div>

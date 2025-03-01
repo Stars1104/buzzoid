@@ -14,7 +14,7 @@ const Footer = () => {
     ]
 
     return (
-        <footer className="w-full mt-24 bg-white">
+        <footer className="w-full mt-24 bg-white ">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div className="w-full flex flex-col justify-center items-start">
                     <div className="w-full flex flex-row flex-wrap justify-start items-center gap-8 py-10">

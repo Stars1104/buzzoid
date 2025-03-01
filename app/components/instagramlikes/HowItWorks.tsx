@@ -25,8 +25,8 @@ function HowItWorks() {
         more powerful Instagram presence almost immediately.
       </p>
 
-      <div className="mt-24 px-24 flex w-full flex-wrap items-center justify-center flex-row text-gray-600 gap-4 ">
-        <div className="w-1/5 bg-white border rounded-lg shadow-lg flex items-center justify-center flex-col p-6 h-80">
+      <div className="mt-24 px-24 flex w-full flex-col lg:flex-wrap items-center justify-center lg:flex-row text-gray-600 gap-4 ">
+        <div className="lg:w-1/5  bg-white border rounded-lg shadow-lg flex items-center justify-center flex-col p-6 h-80">
           <img src="assets/icon/clock-64.png" className="h-16 w-16 my-6" />
           <p className="text-lg font-bold text-center">Use public profile</p>
 
@@ -35,7 +35,7 @@ function HowItWorks() {
             receive your followers.
           </p>
         </div>
-        <div className="w-1/5 bg-white border rounded-lg shadow-lg flex items-center justify-center flex-col p-6 h-80">
+        <div className="lg:w-1/5  bg-white border rounded-lg shadow-lg flex items-center justify-center flex-col p-6 h-80">
           <img src="assets/icon/clock-64.png" className="h-16 w-16 my-6" />
           <p className="text-lg font-bold text-center">Use public profile</p>
 
@@ -44,7 +44,7 @@ function HowItWorks() {
             receive your followers.
           </p>
         </div>
-        <div className="w-1/5 bg-white border rounded-lg shadow-lg flex items-center justify-center flex-col p-6 h-80">
+        <div className="lg:w-1/5  bg-white border rounded-lg shadow-lg flex items-center justify-center flex-col p-6 h-80">
           <p className="text-sm  text-center font-semibold mt-6">
             For more powerful growth, you can order between{" "}
             <span className="text-orange-400 font-bold">
@@ -63,7 +63,7 @@ function HowItWorks() {
             , for the ultimate in growth power.
           </p>
         </div>
-        <div className="w-1/5 bg-white border rounded-lg shadow-lg flex items-center justify-center flex-col p-6 h-80">
+        <div className="lg:w-1/5  bg-white border rounded-lg shadow-lg flex items-center justify-center flex-col p-6 h-80">
           <img src="assets/icon/clock-64.png" className="h-16 w-16 my-6" />
           <p className="text-lg font-bold text-center">Use public profile</p>
 
@@ -72,7 +72,7 @@ function HowItWorks() {
             receive your followers.
           </p>
         </div>
-        <div className="w-1/5 bg-white border rounded-lg shadow-lg flex items-center justify-center flex-col p-6 h-80">
+        <div className="lg:w-1/5  bg-white border rounded-lg shadow-lg flex items-center justify-center flex-col p-6 h-80">
           <img src="assets/icon/clock-64.png" className="h-16 w-16 my-6" />
           <p className="text-lg font-bold text-center">Use public profile</p>
 
@@ -81,7 +81,7 @@ function HowItWorks() {
             receive your followers.
           </p>
         </div>
-        <div className="w-1/5 bg-white border rounded-lg shadow-lg flex items-center justify-center flex-col p-6 h-80">
+        <div className="lg:w-1/5  bg-white border rounded-lg shadow-lg flex items-center justify-center flex-col p-6 h-80">
           <img src="assets/icon/clock-64.png" className="h-16 w-16 my-6" />
           <p className="text-lg font-bold text-center">Use public profile</p>
 
@@ -90,7 +90,7 @@ function HowItWorks() {
             receive your followers.
           </p>
         </div>
-        <div className="w-1/5 bg-white border rounded-lg shadow-lg flex items-center justify-center flex-col p-6 h-80">
+        <div className="lg:w-1/5  bg-white border rounded-lg shadow-lg flex items-center justify-center flex-col p-6 h-80">
           <img src="assets/icon/clock-64.png" className="h-16 w-16 my-6" />
           <p className="text-lg font-bold text-center">Use public profile</p>
 
@@ -99,7 +99,7 @@ function HowItWorks() {
             receive your followers.
           </p>
         </div>
-        <div className="w-1/5 bg-white border rounded-lg shadow-lg flex items-center justify-center flex-col p-6 h-80">
+        <div className="lg:w-1/5  bg-white border rounded-lg shadow-lg flex items-center justify-center flex-col p-6 h-80">
           <img src="assets/icon/clock-64.png" className="h-16 w-16 my-6" />
           <p className="text-lg font-bold text-center">Use public profile</p>
 
