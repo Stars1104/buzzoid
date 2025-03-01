@@ -18,8 +18,8 @@ function WhyChooseBuzzoid() {
         </span>
       </p>
 
-      <div className="mt-24 px-24 flex w-full flex-wrap items-center justify-center flex-row text-[#001F3F] gap-4 ">
-        <div className="w-1/4 bg-white border rounded-lg shadow-lg flex items-center justify-center flex-col ">
+      <div className="mt-24 px-24 flex w-full flex-wrap items-center justify-center md:flex-row text-[#001F3F] gap-4 ">
+        <div className="lg:w-1/4 bg-white border rounded-lg shadow-lg flex items-center justify-center flex-col ">
           <img src="assets/icon/clock-64.png" className="h-16 w-16 my-6" />
           <p className="text-lg font-bold">Instant delivery guaranteed</p>
 
@@ -29,7 +29,7 @@ function WhyChooseBuzzoid() {
             powerful interactions as soon as you order!
           </p>
         </div>
-        <div className="w-1/4 bg-white border rounded-lg shadow-lg flex items-center justify-center flex-col ">
+        <div className="lg:w-1/4 bg-white border rounded-lg shadow-lg flex items-center justify-center flex-col ">
           <img src="assets/icon/clock-64.png" className="h-16 w-16 my-6" />
           <p className="text-lg font-bold">Instant delivery guaranteed</p>
 
@@ -39,7 +39,7 @@ function WhyChooseBuzzoid() {
             powerful interactions as soon as you order!
           </p>
         </div>
-        <div className="w-1/4 bg-white border rounded-lg shadow-lg flex items-center justify-center flex-col ">
+        <div className="lg:w-1/4 bg-white border rounded-lg shadow-lg flex items-center justify-center flex-col ">
           <img src="assets/icon/clock-64.png" className="h-16 w-16 my-6" />
           <p className="text-lg font-bold">Instant delivery guaranteed</p>
 
@@ -49,7 +49,7 @@ function WhyChooseBuzzoid() {
             powerful interactions as soon as you order!
           </p>
         </div>
-        <div className="w-1/4 bg-white border rounded-lg shadow-lg flex items-center justify-center flex-col ">
+        <div className="lg:w-1/4 bg-white border rounded-lg shadow-lg flex items-center justify-center flex-col ">
           <img src="assets/icon/clock-64.png" className="h-16 w-16 my-6" />
           <p className="text-lg font-bold">Instant delivery guaranteed</p>
 
@@ -59,7 +59,7 @@ function WhyChooseBuzzoid() {
             powerful interactions as soon as you order!
           </p>
         </div>
-        <div className="w-1/4 bg-white border rounded-lg shadow-lg flex items-center justify-center flex-col ">
+        <div className="lg:w-1/4 bg-white border rounded-lg shadow-lg flex items-center justify-center flex-col ">
           <img src="assets/icon/clock-64.png" className="h-16 w-16 my-6" />
           <p className="text-lg font-bold">Instant delivery guaranteed</p>
 
@@ -69,8 +69,8 @@ function WhyChooseBuzzoid() {
             powerful interactions as soon as you order!
           </p>
         </div>
-        <div className="w-1/4 bg-sky-300 border rounded-lg shadow-lg flex items-center justify-center flex-col relative">
-          <p className="my-4 font-bold">Want organic, Targeted followers?</p>
+        <div className="lg:w-1/4 bg-sky-300 border rounded-lg shadow-lg flex items-center justify-center flex-col relative">
+          <p className="my-4 font-bold w-2/3 text-center">Want organic, Targeted followers?</p>
 
           <p className="uppercase p-1 text-xs absolute -top-3 right-3 bg-orange-600 rounded-md shadow font-bold text-white">New Service</p>
 

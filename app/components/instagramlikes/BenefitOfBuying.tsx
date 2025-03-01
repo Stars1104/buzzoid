@@ -28,8 +28,34 @@ function BenefitOfBuying() {
         Gram.
       </p>
 
-      <div className="mt-24 px-24 flex w-full flex-wrap items-center justify-center flex-row text-[#001F3F] gap-4 ">
-        <div className="w-1/4 bg-white border rounded-lg shadow-lg flex items-center justify-center flex-col ">
+      <div className="mt-24 px-24 flex w-full flex-wrap items-center justify-center md:flex-row text-[#001F3F] gap-4 ">
+        <div className="lg:w-1/4 bg-white border rounded-lg shadow-lg flex items-center justify-center flex-col ">
+          <img src="assets/icon/clock-64.png" className="h-16 w-16 my-6" />
+          <p className="text-lg font-bold">Increased Visibility</p>
+
+          <p className="text-sm p-8 text-center font-semibold">
+            The system's algorithms give the greatest exposure to the most
+            popular Instagram accounts. Since Buzzoid followers are all real
+            people with real accounts on the app, they instantly make you more
+            popular - creating more visibility for your Instagram pages and
+            attracting a large number of followers who've never seen your
+            content before.
+          </p>
+        </div>
+        <div className="lg:w-1/4 bg-white border rounded-lg shadow-lg flex items-center justify-center flex-col ">
+          <img src="assets/icon/clock-64.png" className="h-16 w-16 my-6" />
+          <p className="text-lg font-bold">Increased Visibility</p>
+
+          <p className="text-sm p-8 text-center font-semibold">
+            The system's algorithms give the greatest exposure to the most
+            popular Instagram accounts. Since Buzzoid followers are all real
+            people with real accounts on the app, they instantly make you more
+            popular - creating more visibility for your Instagram pages and
+            attracting a large number of followers who've never seen your
+            content before.
+          </p>
+        </div>
+        <div className="lg:w-1/4 bg-white border rounded-lg shadow-lg flex items-center justify-center flex-col ">
           <img src="assets/icon/clock-64.png" className="h-16 w-16 my-6" />
           <p className="text-lg font-bold">Increased Visibility</p>
 
