@@ -4,17 +4,17 @@ import { FaStar } from "react-icons/fa";
 
 function WhatCustomerSays() {
   return (
-    <div className="flex items-center flex-col justify-center mt-24 ">
+    <div className="flex items-center flex-col justify-center mt-24 w-full">
       <p className="lg:text-5xl md:text-[2rem] text-[1.3rem] font-[system-ui] font-[700] text-center text-[#001F3F]">
         What Our Customers Say
       </p>
 
-      <div className="flex items-center lg:flex-row flex-col gap-6 mt-12 ">
-        <div className="w-80">
+      <div className="flex items-center justify-between lg:flex-row flex-col  mt-12 lg:w-4/6 w-full ">
+        <div className="lg:w-1/3 w-5/6">
           <SubmitReview />
         </div>
-        <div className="w-80 flex items-center justify-center flex-col">
-          <div className="mb-6">
+        <div className="flex flex-col w-5/6 mt-12 lg:mt-0 lg:w-1/2 lg:ml-12 ">
+          <div className="mb-6 ">
             <div className="flex gap-1 lg:order-1 order-1 md:w-auto sm:w-[60%]">
               {[...Array(5)].map((_, i) => (
                 <div
@@ -84,7 +84,7 @@ function WhatCustomerSays() {
 
           
 
-          <div className="w-fit px-4 py-2 bg-gray-600 text-white font-medium rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors">
+          <div className="w-full self-center px-4 py-1 text-center hover:cursor-pointer bg-gray-200 text-gray-600 font-medium rounded-xl shadow hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors">
               <p>Show All Reviews</p>
           </div>
         </div>
