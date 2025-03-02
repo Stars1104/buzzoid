@@ -143,8 +143,8 @@ const InstagramComment = () => {
 
         <Delivery />
 
-        <div className="lg:w-1/2  flex items-center justify-center flex-col lg:flex-row gap-8 mt-24 lg:h-96">
-          <div className="border-2 lg:w-1/3 w-1/2 flex-col rounded-lg  text-gray-600 h-full">
+        <div className="lg:w-1/2 w-5/6 flex items-center justify-center flex-col lg:flex-row gap-8 mt-24 lg:h-96">
+          <div className="border-2 lg:w-1/3 w-full flex-col rounded-lg  text-gray-600 h-full">
             <div className="p-4  rounded-t-lg  h-20">
               <p className="font-bold text-gray-600">
                 High Quality <br /> Followers
@@ -183,7 +183,7 @@ const InstagramComment = () => {
             </div>
           </div>
 
-          <div className="border-2  lg:w-1/3 w-1/2 flex-col rounded-lg  text-gray-600 h-full">
+          <div className="border-2  lg:w-1/3 w-full flex-col rounded-lg  text-gray-600 h-full">
             <div className="p-4 bg-black rounded-t-lg  h-20">
               <p className="font-bold text-white">
                 Active <br /> Followers
@@ -221,7 +221,7 @@ const InstagramComment = () => {
               </div>
             </div>
           </div>
-          <div className="border-2 lg:w-1/3 w-1/2 flex-col rounded-lg  text-gray-600 h-full">
+          <div className="border-2 lg:w-1/3 w-full flex-col rounded-lg  text-gray-600 h-full">
             <div className="p-4 bg-[#9936fe] rounded-t-lg h-20">
               <p className="font-bold text-white ">Exclusive/ VIP</p>
             </div>
@@ -258,25 +258,25 @@ const InstagramComment = () => {
         </div>
       </section>
 
-      <section>
+      <section className="w-full">
         <WhyChooseBuzzoid />
       </section>
 
-      <section>
+      <section className="w-full">
         <HowItWorks />
       </section>
 
-      <section>
+      <section className="w-full">
         <BenefitOfBuying />
       </section>
 
       <FAQ />
 
-      <section >
+      <section className="w-full">
         <WhatCustomerSays />
       </section>
 
-      <section>
+      <section className="w-full">
         <BoostYourIG />
       </section>
       <Footer />

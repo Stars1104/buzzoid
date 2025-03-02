@@ -2,7 +2,7 @@ import React from "react";
 
 function BoostYourIG() {
   return (
-    <div className="flex items-center flex-col justify-center mt-24">
+    <div className="flex items-center flex-col justify-center mt-24 w-full">
       <p className="lg:text-5xl md:text-[2rem] text-[1.3rem] font-[system-ui] font-[700] text-center text-[#001F3F]">
         Boost Your{" "}
         <span
@@ -18,7 +18,7 @@ function BoostYourIG() {
         </span>
       </p>
 
-      <p className="text-center mt-12 w-1/2 font-semibold text-gray-600">
+      <p className="text-center mt-12 lg:w-1/2 w-5/6 font-semibold text-gray-600">
         Instagram has nearly 2.5 billion active users, making it an incredibly
         powerful place to be seen. But with so many Instagram accounts uploading
         content every day, it's become an enormous challenge to have your posts

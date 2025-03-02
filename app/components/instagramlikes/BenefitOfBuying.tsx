@@ -2,7 +2,7 @@ import React from "react";
 
 function BenefitOfBuying() {
   return (
-    <div className="flex items-center flex-col justify-center mt-24">
+    <div className="flex items-center flex-col justify-center mt-24 w-full">
       <p className="lg:text-5xl md:text-[2rem] text-[1.3rem] font-[system-ui] font-[700] text-center text-[#001F3F]">
         Benefits of Buying{" "}
         <span
@@ -18,7 +18,7 @@ function BenefitOfBuying() {
         </span>
       </p>
 
-      <p className="text-center mt-12 w-1/2 font-semibold text-gray-600">
+      <p className="text-center mt-12 lg:w-1/2 w-5/6 font-semibold text-gray-600">
         Instagram has nearly 2.5 billion active users, making it an incredibly
         powerful place to be seen. But with so many Instagram accounts uploading
         content every day, it's become an enormous challenge to have your posts
@@ -28,8 +28,8 @@ function BenefitOfBuying() {
         Gram.
       </p>
 
-      <div className="mt-24 px-24 flex w-full flex-wrap items-center justify-center md:flex-row text-[#001F3F] gap-4 ">
-        <div className="lg:w-1/4 bg-white border rounded-lg shadow-lg flex items-center justify-center flex-col ">
+      <div className="mt-24 lg:px-24 flex w-full flex-wrap items-center justify-center md:flex-row text-[#001F3F] gap-4 ">
+        <div className="lg:w-1/4 w-5/6 bg-white border rounded-lg shadow-lg flex items-center justify-center flex-col ">
           <img src="assets/icon/clock-64.png" className="h-16 w-16 my-6" />
           <p className="text-lg font-bold">Increased Visibility</p>
 
@@ -42,7 +42,7 @@ function BenefitOfBuying() {
             content before.
           </p>
         </div>
-        <div className="lg:w-1/4 bg-white border rounded-lg shadow-lg flex items-center justify-center flex-col ">
+        <div className="lg:w-1/4 w-5/6 bg-white border rounded-lg shadow-lg flex items-center justify-center flex-col ">
           <img src="assets/icon/clock-64.png" className="h-16 w-16 my-6" />
           <p className="text-lg font-bold">Increased Visibility</p>
 
@@ -55,7 +55,7 @@ function BenefitOfBuying() {
             content before.
           </p>
         </div>
-        <div className="lg:w-1/4 bg-white border rounded-lg shadow-lg flex items-center justify-center flex-col ">
+        <div className="lg:w-1/4 w-5/6 bg-white border rounded-lg shadow-lg flex items-center justify-center flex-col ">
           <img src="assets/icon/clock-64.png" className="h-16 w-16 my-6" />
           <p className="text-lg font-bold">Increased Visibility</p>
 
