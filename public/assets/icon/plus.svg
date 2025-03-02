@@ -1,0 +1,14 @@
+<svg
+    className="w-6 h-6"
+    viewBox="0 0 24 24"
+    fill="#192d5a"
+    xmlns="http://www.w3.org/2000/svg"
+>
+    <path
+        d="M6 12H18M12 18V6"
+        stroke="#192d5a"
+        strokeWidth="1.6"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+    ></path>
+</svg>

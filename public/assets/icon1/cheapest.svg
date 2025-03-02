@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1200 1200" style="enable-background:new 0 0 1200 1200;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:#2563EB;}
+</style>
+<g id="budicon-discount-coupon">
+	<path class="st0" d="M432,936c288,0,720-576,720-672v672H432z"/>
+	<path class="st1" d="M1152,216H48c-26.5,0-48,21.5-48,48v144c106,0,192,86,192,192c0,106-86,192-192,192v144c0,26.5,21.5,48,48,48
+		h1104c26.5,0,48-21.5,48-48V264C1200,237.5,1178.5,216,1152,216z M1152,936H384v-48h-48v48H48V835.1C159.7,812.2,239.9,714,240,600
+		c-0.1-114-80.3-212.2-192-235.2V264h288v48h48v-48h768L1152,936L1152,936z"/>
+	<path class="st1" d="M624,552c53,0,96-43,96-96s-43-96-96-96l0,0c-53,0-96,43-96,96S571,552,624,552z M624,408
+		c26.5,0,48,21.5,48,48c0,26.5-21.5,48-48,48c-26.5,0-48-21.5-48-48C576,429.5,597.5,408,624,408z"/>
+	<path class="st1" d="M912,648c-53,0-96,43-96,96c0,53,43,96,96,96c53,0,96-43,96-96C1008,690.9,965,648,912,648z M912,792
+		c-26.5,0-48-21.5-48-48c0-26.5,21.5-48,48-48c26.5,0,48,21.5,48,48C960,770.5,938.5,792,912,792z"/>
+	
+		<rect x="490.8" y="576" transform="matrix(0.6501 -0.7599 0.7599 0.6501 -180.7908 807.3484)" class="st1" width="590.7" height="48"/>
+	<rect x="336" y="408" class="st1" width="48" height="144"/>
+	<rect x="336" y="648" class="st1" width="48" height="144"/>
+</g>
+</svg>
